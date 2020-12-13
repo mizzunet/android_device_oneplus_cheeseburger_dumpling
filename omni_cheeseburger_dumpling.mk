@@ -20,7 +20,7 @@ PRODUCT_RELEASE_NAME := cheeseburger_dumpling
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Set by init module based on ro.boot.rf_version argument from bootloader
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.device ro.product.model ro.build.product 
